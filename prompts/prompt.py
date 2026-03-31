@@ -29,8 +29,3 @@ Analogi:
 
 def get_explain_prompt():
     return explain_prompt
-
-
-explain_prompt = PromptTemplate(
-    
-)
