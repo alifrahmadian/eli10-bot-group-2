@@ -1,5 +1,5 @@
 from langchain_openai import ChatOpenAI
-from config import OPENAI_API_KEY, MODEL_NAME
+from config.settings import OPENAI_API_KEY, MODEL_NAME
 
 def get_llm():
     llm = ChatOpenAI(
